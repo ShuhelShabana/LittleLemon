@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Jomolhari&display=swap');
+
+.testimonials-container {
+    background-color: #495e57;
+    padding: 40px;
+    text-align: center;
+    font-family: 'Jomolhari', sans-serif;
+}
+
+.testimonials-container h2 {
+    font-size: 2rem;
+    color: #edefee;
+}
+
+.testimonials {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    flex-wrap: wrap; 
+    font-family: 'Jomolhari', sans-serif;
+}
+
+.testimonial {
+    background-color: #edefee;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    text-align: left;
+    color: #333333;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial-header {
+    display: flex;
+    align-items: center;
+}
+
+.avatar {
+    background-color: #edefee;
+}
+
+.testimonial-header img {
+    width: 150px;
+    height: auto;
+    border-radius: 50%; 
+    object-fit: cover;
+}
+
+.name-rating {
+    display: flex;
+    flex-direction: column;
+    margin: 70px 0px 0px 30px;
+}
+
+.testimonial h3 {
+    margin: 0px 0px 0px 6px;
+    font-size: 1.2rem;
+    color: #ee9972;
+}
+
+.stars {
+    color: #f4ce14;
+    font-size: 30px;
+}
+
+.review-text {
+    font-size: 0.95rem;
+    color: #333333;
+    line-height: 1.5;
+}

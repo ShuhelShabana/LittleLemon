@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Jomolhari&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Marmelad&display=swap');
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 200px 0px 200px;
+    background-color: #495e57;
+    color: #edefee;
+    font-family: 'Jomolhari', sans-serif;
+  }
+  
+  .hero-content {
+    max-width: 50%;
+  }
+  
+  .hero-content h1 {
+    font-size: 48px;
+    margin-bottom: 5px;
+  }
+  
+  .hero-content h2 {
+    font-size: 24px;
+    font-weight: lighter;
+    margin-bottom: 5px;
+  }
+  
+  .hero-content p {
+    font-size: 16pt;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    max-width: 65ch;
+  }
+  
+  .reserve-button {
+    padding: 10px 20px;
+    background-color: #f4ce14;
+    color: #333333;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    font-family: 'Marmelad', sans-serif;
+  }
+  
+  .reserve-button:hover {
+    background-color: #e0a800;
+  }
+  
+  .res-image img {
+    width: 500px;
+    height: auto;
+    border-radius: 8px;
+  }

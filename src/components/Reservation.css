@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Jomolhari&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Marmelad&display=swap');
+
+body {
+    margin: 0;
+    background-color: #495e57;
+    font-family: "Jomolhari";
+}
+
+.reservation-form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #bec5c3;
+    font-family: "Jomolhari";
+}
+
+.reservation-form {
+    background-color: #495e57;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    color: #edefee;
+    width: 700px;
+    max-width: 100%;
+    margin: 40px 0px 40px 0px;
+}
+
+.reservation-form h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 1.5em;
+    color: #edefee;
+}
+
+.input-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.input-container label {
+    width: 30%;
+    font-weight: bold;
+    font-size: 0.9em;
+}
+
+.input-container input,
+.input-container select,
+.input-container textarea {
+    padding: 10px;
+    border: 1px solid #edefee;
+    border-radius: 5px;
+    background-color: #e4e5e4;
+    color: #333;
+    width: 70%;
+    box-sizing: border-box;
+}
+
+.input-container select, .input-container input[type="date"], .input-container input[type="time"], .input-container input[type="number"], .input-container input[type="tel"] {
+    width: 300px;
+}
+
+.reservation-form input[type="date"],
+.reservation-form input[type="time"] {
+    padding-right: 30px;
+}
+
+.input-container input:focus,
+.input-container select:focus,
+.input-container textarea:focus {
+    outline: none;
+    border-color: #f4ce14;
+}
+
+.custom-icon-date,
+.custom-icon-time {
+    position: absolute;
+    right: 30%;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    z-index: 2;
+}
+
+.reservation-form input[type="date"]::-webkit-calendar-picker-indicator,
+.reservation-form input[type="time"]::-webkit-calendar-picker-indicator {
+    display: none;
+}
+
+.button-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.reservation-form button {
+    width: 200px;
+    padding: 12px;
+    background-color: #f4ce14;
+    color: #333;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    font-weight: bold;
+    font-family: "Marmelad";
+}
+
+.reservation-form button:hover {
+    background-color: #e0a800;
+}
+
+.special-requests-textarea {
+    height: 80px;
+}
+
+.custom-select-wrapper {
+    position: relative;
+    width: 100%;
+    margin-left: 62px;
+}
+
+.custom-select {
+    width: 100%;
+    padding: 10px 40px 10px 10px;
+    border: 1px solid #edefee;
+    border-radius: 5px;
+    background-color: #e4e5e4;
+    color: #333;
+    appearance: none; 
+    background-image: url('../assets/icons/down.png');
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-size: 20px 20px;
+}
+
+.custom-select:focus {
+    outline: none;
+}
+
+.input-container textarea {
+    height: 200px;
+}

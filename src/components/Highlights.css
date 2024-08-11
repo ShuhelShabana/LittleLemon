@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Jomolhari&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Marmelad&display=swap');
+
+.specials {
+    padding: 20px;
+    background-color: #edefee;
+  }
+  
+  .specials-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 70px 170px 70px 170px;
+    position: relative;
+  }
+  
+  .ellipse {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    padding: 20px 40px;
+    background: #fbdabb;
+    transform: translateY(-50%);
+    animation: pulse 2s infinite;
+    z-index: 0;
+    margin-top: 60px;
+  }
+  
+  .ellipse h2 {
+    font-size: 32px;
+    font-family: 'Marmelad', Times, serif;
+    color: #ee9972;
+    margin: 0;
+    text-align: center;
+    z-index: 1;
+  }
+
+@keyframes pulse {
+    0% {
+        transform: scale(1) translateY(-50%);
+    }
+    50% {
+        transform: scale(1.2) translateY(-50%);
+    }
+    100% {
+        transform: scale(1) translateY(-50%);
+    }
+}
+  
+  .menu-button {
+    padding: 10px 20px;
+    background-color: #f4ce14;
+    color: #333333;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 8px;
+    font-family: 'Marmelad', sans-serif;
+    margin-left: 1200px;
+  }
+  
+  .menu-button:hover {
+    background-color: #e0a800;
+  }
+  
+  .specials-list {
+    display: flex;
+    overflow-x: auto;
+    gap: 20px;
+    padding: 10px 0;
+    font-family: 'Jomolhari';
+  }
+  
+  .specials-list::-webkit-scrollbar {
+    height: 8px;
+  }
+  
+  .specials-list::-webkit-scrollbar-thumb {
+    background-color: #333333;
+    border-radius: 10px;
+  }
+  
+  .special-item {
+    flex: 0 0 300px;
+    background-color: #495e57;
+    color: #edefee;
+    border-radius: 8px;
+    overflow: hidden;
+    padding: 15px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .special-item img {
+    width: 100%;
+    height: 200px;
+    border-radius: 8px;
+  }
+  
+  .special-item h3 {
+    font-size: 20px;
+    margin-top: 10px;
+  }
+  
+  .special-item p {
+    font-size: 14px;
+    line-height: 1.4;
+    margin-top: 10px;
+  }
+  
